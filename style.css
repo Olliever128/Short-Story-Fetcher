@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    min-height:100vh;
+    background-color:white;
+}
+
+/* particle container */
+#particles{
+    position:fixed;   /* stay in background */
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;       /* behind content */
+}
+
+/* particle style */
+.particle{
+    position:absolute;   /* REQUIRED for top/left to work */
+
+    opacity:0.5;
+}
+
+h2{
+    position: relative;
+    top: 40px;
+    text-align:center;
+    color:rgb(224, 57, 193);
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    position: relative;
+    top: 80px;
+    display:block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 30px;
+    background-color: hotpink;
+    font-size: 50px;
+    padding: 10px 10px 10px;
+    color:rgb(96, 2, 80);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title, #story{
+    position: relative;
+    top: 130px;
+    text-align: center;
+    bottom: 100px;
+}
+
+#title{
+    font-size: 60px;
+    color:#342532;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#story{
+    text-align: justify;
+    font-size: 40px;
+    color:#383838;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.storyContainer{
+    margin-left: 67px;
+    margin-right: 67px;
+}
